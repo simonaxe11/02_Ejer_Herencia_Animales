@@ -15,7 +15,8 @@ public class Animal {
     int edad;
     double peso;
     boolean acuatico;
-
+    
+    
     public String getNombre() {
         return nombre;
     }
@@ -43,5 +44,7 @@ public class Animal {
     public boolean isAcuatico() {
         return acuatico;
     }  
+    
+    
 //---------------SIMON--------------------
 }
