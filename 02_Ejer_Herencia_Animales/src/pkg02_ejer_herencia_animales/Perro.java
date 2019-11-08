@@ -21,16 +21,18 @@ public class Perro extends Animal {
     }
 
     public void ladrar(){
-        System.out.println(" dice: Guau guau guau!");
+        System.out.println(this.perro1.nombre + " dice: Guau guau guau!");
     }
     
     public void desplazar(){
-        System.out.println(" corre contento.");
+        System.out.println(this.perro1.nombre + " corre contento.");
+    }
+
+    @Override
+    public String toString() {
+        return "Perro{" + "RazaDelPerro=" + RazaDelPerro + '}';
     }
     
-//    @Override
-//    public String toString() {
-//        return "Perro{ nombre + "RazaDelPerro= " + RazaDelPerro + '}';
-//    }
+    
     
 }
