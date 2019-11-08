@@ -19,9 +19,9 @@ public class Animal {
 
     Acuatico acuatico;
 
-    Animal perro1 = new Animal("pepito", 23, 12.5, Acuatico.ANFIBIO);
+    
 
-    public Animal(String nombre, int edad, double peso, Acuatico acuatico) {
+    public Animal(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
         this.peso = peso;
@@ -73,14 +73,17 @@ public class Animal {
         }
     }
 
+
 //---------------SIMON--------------------
 //---------------JORGE--------------------
     public void alimentar() {
         System.out.println(nombre + " mastica y come <alimento>");
     }
-    
+
     public void mostrar(){
-         
+        System.out.println(toString());
+        
+
     }
     
     
@@ -91,6 +94,7 @@ public class Animal {
     public String toString() {
         return "Animal{" + "nombre=" + nombre + ", edad=" + edad + ", peso=" + peso + ", acuatico=" + acuatico + '}';
     }
+
 
 
 }
