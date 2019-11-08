@@ -28,9 +28,9 @@ public class Perro extends Animal {
         System.out.println(" corre contento.");
     }
     
-    @Override
-    public String toString() {
-        return "Perro{ nombre + "RazaDelPerro= " + RazaDelPerro + '}';
-    }
+//    @Override
+//    public String toString() {
+//        return "Perro{ nombre + "RazaDelPerro= " + RazaDelPerro + '}';
+//    }
     
 }

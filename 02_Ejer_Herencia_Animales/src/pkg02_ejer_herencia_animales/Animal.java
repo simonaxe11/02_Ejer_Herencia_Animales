@@ -14,9 +14,31 @@ public class Animal {
     String nombre;
     int edad;
     double peso;
+
     boolean acuatico;
     
     
+
+    Acuatico acuatico;
+    
+    Animal perro1= new Animal("pepito",23,12.5,Acuatico.ANFIBIO);
+    
+    
+
+    public Animal(String nombre, int edad, double peso, Acuatico acuatico) {
+        this.nombre = nombre;
+        this.edad = edad;
+        this.peso = peso;
+        this.acuatico = acuatico;
+    }
+
+    public Animal() {
+    }
+    
+    
+    
+
+
     public String getNombre() {
         return nombre;
     }
@@ -40,6 +62,11 @@ public class Animal {
     public void setPeso(double peso) {
         this.peso = peso;
     }
+    
+    public Acuatico getAcuatico() {
+            return acuatico;
+    }
+
 
     public boolean isAcuatico() {
         return acuatico;
@@ -47,4 +74,18 @@ public class Animal {
     
     
 //---------------SIMON--------------------
+    
+    
+//---------------JORGE--------------------
+    
+    public void alimentar(){
+        System.out.println(nombre+" mastica y come <alimento>");
+    }
+    
+    
+    
+
+//---------------JORGE--------------------    
+
+    
 }

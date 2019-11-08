@@ -9,14 +9,9 @@ package pkg02_ejer_herencia_animales;
  *
  * @author PC
  */
-public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-      
-    }
-    
+public enum Acuatico {
+    NO_DEFINIDO,
+    ACUATICO,
+    TERRESTRE,
+    ANFIBIO
 }
