@@ -9,12 +9,15 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import pkg02_ejer_herencia_animales.Animal;
 
 /**
  *
  * @author PC
  */
 public class AnimalTest {
+    Animal perro = new Animal("Toby",12);
+    
     
     public AnimalTest() {
     }

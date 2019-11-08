@@ -13,9 +13,9 @@ package pkg02_ejer_herencia_animales;
  */
 public class Animal {
 
-    String nombre;
-    int edad;
-    double peso;
+    private String nombre;
+    private int edad;
+    private double peso;
 
     Acuatico acuatico;
 
@@ -24,7 +24,7 @@ public class Animal {
     public Animal(String nombre, int edad) {
         this.nombre = nombre;
         this.edad = edad;
-        this.peso = peso;
+        this.peso = 0.5;
         this.acuatico = acuatico;
     }
 

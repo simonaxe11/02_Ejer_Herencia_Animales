@@ -14,12 +14,12 @@ public class Percebe extends Animal {
     String alimento = "Fitoplacton";
 
     public void alimentar() {
-        System.out.println(nombre + " se nutre de " + alimento);
+        System.out.println(getNombre() + " se nutre de " + alimento);
     }
 
     @Override
     public String toString() {
-        return "Percebe{ " + nombre + ", " + edad + ", " + peso + ", " + acuatico + " }";
+        return "Percebe{ " + getNombre() + ", " + getEdad() + ", " + getPeso() + ", " + acuatico + " }";
     }
     
     
