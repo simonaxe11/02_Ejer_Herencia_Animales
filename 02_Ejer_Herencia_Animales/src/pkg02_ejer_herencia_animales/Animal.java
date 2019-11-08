@@ -14,11 +14,6 @@ public class Animal {
     String nombre;
     int edad;
     double peso;
-
-    boolean acuatico;
-    
-    
-
     Acuatico acuatico;
     
     Animal perro1= new Animal("pepito",23,12.5,Acuatico.ANFIBIO);
@@ -68,9 +63,7 @@ public class Animal {
     }
 
 
-    public boolean isAcuatico() {
-        return acuatico;
-    }  
+      
     
     
 //---------------SIMON--------------------
@@ -82,10 +75,19 @@ public class Animal {
         System.out.println(nombre+" mastica y come <alimento>");
     }
     
+    public void mostrar(){
+        
+        
+    }
     
     
 
 //---------------JORGE--------------------    
+
+    @Override
+    public String toString() {
+        return "Animal{" + "nombre=" + nombre + ", edad=" + edad + ", peso=" + peso + ", acuatico=" + acuatico + '}';
+    }
 
     
 }
