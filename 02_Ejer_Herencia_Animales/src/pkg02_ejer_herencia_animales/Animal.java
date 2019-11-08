@@ -16,10 +16,7 @@ public class Animal {
     String nombre;
     int edad;
     double peso;
-<<<<<<< HEAD
-=======
 
->>>>>>> 0e2eecba3547c6630706d9fd036465a954349a68
     Acuatico acuatico;
 
     Animal perro1 = new Animal("pepito", 23, 12.5, Acuatico.ANFIBIO);
@@ -76,22 +73,14 @@ public class Animal {
         }
     }
 
-<<<<<<< HEAD
-      
-    
-    
-=======
->>>>>>> 0e2eecba3547c6630706d9fd036465a954349a68
 //---------------SIMON--------------------
 //---------------JORGE--------------------
     public void alimentar() {
         System.out.println(nombre + " mastica y come <alimento>");
     }
-<<<<<<< HEAD
     
     public void mostrar(){
-        
-        
+         
     }
     
     
@@ -103,9 +92,5 @@ public class Animal {
         return "Animal{" + "nombre=" + nombre + ", edad=" + edad + ", peso=" + peso + ", acuatico=" + acuatico + '}';
     }
 
-    
-=======
 
-//---------------JORGE--------------------    
->>>>>>> 0e2eecba3547c6630706d9fd036465a954349a68
 }

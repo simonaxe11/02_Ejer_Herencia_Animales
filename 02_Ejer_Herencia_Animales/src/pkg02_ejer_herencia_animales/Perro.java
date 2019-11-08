@@ -21,11 +21,11 @@ public class Perro extends Animal {
     }
 
     public void ladrar(){
-        System.out.println(this.perro1.nombre + " dice: Guau guau guau!");
+        System.out.println(this.nombre + " dice: Guau guau guau!");
     }
     
     public void desplazar(){
-        System.out.println(this.perro1.nombre + " corre contento.");
+        System.out.println(this.nombre + " corre contento.");
     }
 
     @Override
