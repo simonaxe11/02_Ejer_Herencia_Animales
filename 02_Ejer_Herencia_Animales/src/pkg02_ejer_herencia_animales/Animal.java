@@ -7,11 +7,11 @@ package pkg02_ejer_herencia_animales;
 //Aqui va la clase de animal
 //--------SIMON------------
 
-/**
- *
+/** Clase abstracta que no puede ser instanciada 
+ * por falta de sentido
  * @author PC
  */
-public class Animal {
+public abstract class Animal {
 
     private String nombre;
     private int edad;
@@ -47,6 +47,11 @@ public class Animal {
         this.edad = edad;
     }
 
+    /** Peso deberá tener un peso original que 
+    * podrá modificarse después.
+    *
+    */
+    
     public double getPeso() {
         return peso;
     }
@@ -55,10 +60,18 @@ public class Animal {
         this.peso = peso;
     }
 
+    /**
+     * Nos devuelve el hábitat del animal.
+     * @return 
+     */
     public Acuatico getAcuatico() {
         return acuatico;
     }
 
+    /**
+     * Nos muestra como se deszplaza cada animal
+     */
+    
     public void desplazar() {
         if (acuatico == Acuatico.ACUATICO) {
             System.out.println(nombre + " nada.");
@@ -76,6 +89,10 @@ public class Animal {
 
 //---------------SIMON--------------------
 //---------------JORGE--------------------
+    
+    /**
+     * Nos muestra de que se alimenta cada animal
+     */
     public void alimentar() {
         System.out.println(nombre + " mastica y come <alimento>");
     }

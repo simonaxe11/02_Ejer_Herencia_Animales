@@ -16,7 +16,7 @@ import pkg02_ejer_herencia_animales.Animal;
  * @author PC
  */
 public class AnimalTest {
-    Animal perro = new Animal("Toby",12);
+
     
     
     public AnimalTest() {

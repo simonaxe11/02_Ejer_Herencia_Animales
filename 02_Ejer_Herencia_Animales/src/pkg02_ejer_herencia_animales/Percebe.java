@@ -5,7 +5,7 @@
  */
 package pkg02_ejer_herencia_animales;
 
-/**
+/** Clase Percebe para controlar las características de Percebe
  *
  * @author PC
  */
